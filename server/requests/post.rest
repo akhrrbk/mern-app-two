@@ -1,0 +1,11 @@
+POST http://localhost:5000/posts/
+Content-Type: application/json
+
+{
+    "title": "birinchisi",
+    "message": "bu birinchi sms boladi",
+    "creator": "Axror",
+    "tags": ["salom", "jonim"],
+    "selectedFile": "String",
+    "likecount": 100
+}
